@@ -36,10 +36,11 @@ The plugin requires MantisBT version 2.0.0 or later.
 
 5. Click the hyperlink on the plugin's name to configure it.
 
-6. Open up(n the mantis root directory) bug_report_page.php and search for "$t_fields = config_get( 'bug_report_page_fields' );"
+6. Open up(n the mantis root directory) bug_report_page.php and search for: <br>
+   $t_fields = config_get( 'bug_report_page_fields' );
 
-7. Insert the following line after the line found: 
-	$t_fields = EVENT_SIGNAL( 'EVENT_SIMPLE_SCREEN' , $t_fields);
+8. Insert the following line after the line found: <br>
+   $t_fields = EVENT_SIGNAL( 'EVENT_SIMPLE_SCREEN' , $t_fields);
 
 ## Support
 
