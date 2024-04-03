@@ -1,0 +1,6 @@
+<?php
+$s_plugin_SimpleScreen_title       = 'Simple Screen ';
+$s_plugin_SimpleScreen_description = 'Define fields fore simple reporting screen';
+$s_plugin_SimpleScreen_config      = 'Configuration';
+$s_plugin_SimpleScreen_threshold   = 'Threshold for selecting simple screen';
+$s_plugin_SimpleScreen_fields	   = '(De)Select fields to be used on simple screen';
